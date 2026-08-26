@@ -54,9 +54,8 @@ ML-Recidivism-Model/
 └── compas-scores-two-years.csv
 
 
-## Installation
-
-### Option 1: Using pip
+Installation
+Option 1: Using pip
 ```bash
 pip install -r requirements.txt
 Option 2: Using Anaconda (recommended)
@@ -129,6 +128,8 @@ Joblib - Model serialization
 
 Data Source
 The COMPAS dataset used in this project is available from ProPublica's GitHub repository.
+
+
 
 Conclusion
 This project demonstrates the development of a functional recidivism risk assessment tool. The logistic regression model, enhanced through feature engineering and data balancing techniques, provides robust performance with a ROC-AUC of 0.7437. The survival analysis identifies the critical 6-12 month post-release window, suggesting a key period for targeted interventions to reduce recidivism.
