@@ -1,0 +1,26 @@
+{
+    "model": "Logistic Regression with SMOTE",
+    "version": "1.0.0",
+    "created": "2026-08-12 10:31:08",
+    "features": [
+        "age",
+        "priors_count",
+        "priors_per_age",
+        "total_risk_score",
+        "total_juv_count",
+        "priors_high_risk",
+        "high_risk_flag",
+        "has_juv_record"
+    ],
+    "thresholds": {
+        "low": 0.4,
+        "high": 0.7,
+        "classification": 0.5
+    },
+    "survival_analysis": {
+        "critical_window": "6-12 months",
+        "critical_rate": "68.5%",
+        "median_time": "172 days",
+        "mean_time": "245 days"
+    }
+}
