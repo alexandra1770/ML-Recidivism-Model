@@ -35,6 +35,7 @@ The following features were engineered to improve model performance:
 - `priors_high_risk`: Interaction term between priors count and high risk flag
 
 ## Project Structure
+```
 ML-Recidivism-Model/
 │
 ├── ML RECIDIVISM MODEL (1).ipynb # Main analysis and training notebook
@@ -50,6 +51,7 @@ ML-Recidivism-Model/
 └── data/ # Data directory
 ├── compas-scores-raw.csv
 └── compas-scores-two-years.csv
+```
 
 
 ## Installation
